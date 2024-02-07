@@ -1,0 +1,8 @@
+service: nextjs-with-aws-serverless
+frameworkVersion: '>=1.71.1'
+
+myNextApp:
+  component: "@sls-next/serverless-component"
+  inputs:
+    bucketRegion: ap-south-1
+    runtime: nodejs20.x
